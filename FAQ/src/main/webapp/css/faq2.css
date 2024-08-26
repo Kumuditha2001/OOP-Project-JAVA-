@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+ body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+        padding: 20px;
+    }
+    .formcontainer {
+        margin: 100px auto;
+        text-align: center;
+        margin-bottom: 20px;
+        border: 2px solid #333; /* Border color */
+        border-radius: 10px; /* Rounded corners */
+        padding: 20px; /* Padding inside the frame */
+        width: 80%;
+        max-width: 600px;
+        background-color: white; /* Background color inside the frame */
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-control {
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+    
+    .headings {
+        font-size: 20px;
+    }
+    
+    .form-question {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    }
+    
+    .btn {
+        margin-top: 20px;
+        background-color: black;
+        color: white;
+        padding: 8px 30px;
+        border-radius: 20px;
+        cursor: pointer;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .btn:hover {
+        color: black;
+        background: white;}
